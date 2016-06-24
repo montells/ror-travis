@@ -47,5 +47,8 @@ group :development do
   gem 'spring'
 end
 
-gem 'database_cleaner', group: :test
+group :test do
+  gem 'database_cleaner'
+  gem 'rake'
+end	
 
